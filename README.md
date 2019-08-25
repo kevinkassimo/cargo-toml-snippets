@@ -6,3 +6,33 @@ It is based on [manifest format spec of Cargo.toml](https://doc.rust-lang.org/ca
 ## Supported languages (file extensions)
 
 + TOML (.toml)
+
+## Usage
+
+![demo](images/demo.gif)
+
+## Snippets
+
+Below is an **INCOMPLETE** list of supported snippets.
+
+|      Example Trigger | Content                           |
+| -------------------: | --------------------------------- |
+|            `package` | basic package table               |
+|       `package-full` | full package table                |
+|              `PKG_*` | package entry related snippets    |
+|       `dependencies` | dependency table                  |
+|   `dev-dependencies` | dev dependency table              |
+| `build-dependencies` | build dependency table            |
+|              `DEP_*` | dependency entry related snippets |
+|            `profile` | basic profile table               |
+|       `profile-full` | full profile table                |
+|          `profile.*` | common profile presets            |
+|           `features` | features table                    |
+|              `patch` | patch table                       |
+|           `TARGET_*` | target specific tables            |
+|          `workspace` | basic workspace table             |
+|     `workspace-full` | full workspace table              |
+|            `replace` | replace table                     |
+|            `example` | example table array               |
+|                `bin` | binary table array                |
+|                `lib` | library table                     |
